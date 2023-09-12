@@ -1,6 +1,5 @@
 package atomatizado.test;
 
-
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +14,15 @@ public abstract class BaseTest {
     // pertence à própria classe,
 
     protected static WebDriver driver;
-    private static final String UrlBase = "https://www.google.com.br/"; // final pois após iniciado não pode ser                                                         // alterado
+    private static final String UrlBase = "file:///C:/Users/Rafael_Senziani/OneDrive/%C3%81rea%20de%20Trabalho/Programa%C3%A7%C3%A3o%20Cursos/QA/Teste%20Automatizado/sistema/login.html"; // final
+                                                                                                                                                                                           // pois
+                                                                                                                                                                                           // após
+                                                                                                                                                                                           // iniciado
+                                                                                                                                                                                           // não
+                                                                                                                                                                                           // pode
+                                                                                                                                                                                           // ser
+                                                                                                                                                                                           // //
+                                                                                                                                                                                           // alterado
     private static final String CaminhoDriver = "src/test/java/atomatizado/resource/chromedriver.exe";
 
     // inicia o drive

@@ -12,9 +12,10 @@ public class GoogleTeste extends BaseTest {
 
     @BeforeClass
     public static void prepararTestes() {
+        driver.get("https://www.google.com"); // passando a url manualmente
         googlePage = new GooglePO(driver); // estanciado o objeto e pode acessalo
     }
-
+    
     @Test
     public void FindOnGoogle() {
         googlePage.search("Batata-Assada");
